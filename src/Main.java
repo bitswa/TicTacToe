@@ -63,12 +63,12 @@ public class Main {
         do {
 
             do {
-                System.out.print("enter a row: ");
+                System.out.print("enter a row (1-3): ");
                 row = scan.nextInt();
             } while (row < 1 || row > 3);
 
             do {
-                System.out.print("enter a column: ");
+                System.out.print("enter a column (1-3): ");
                 column = scan.nextInt();
             } while (column < 1 || column > 3);
 
